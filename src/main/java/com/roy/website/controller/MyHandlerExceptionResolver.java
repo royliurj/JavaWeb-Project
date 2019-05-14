@@ -12,7 +12,7 @@ import java.io.PrintWriter;
  * @Author: Roy
  * @Date: 2019/4/28 10:54
  */
-@Component
+//@Component
 public class MyHandlerExceptionResolver implements HandlerExceptionResolver {
     @Override
     public ModelAndView resolveException(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) {
